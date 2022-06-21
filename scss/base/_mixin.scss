@@ -1,0 +1,6 @@
+@mixin media-up ($breakpoint) {
+    @media screen and (min-width: map-get($breakpoins, $breakpoint)) {
+        @content;
+
+    }
+}

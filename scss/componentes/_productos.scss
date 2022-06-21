@@ -1,0 +1,65 @@
+.main__container--productos h1 {
+    text-align: center;
+    color: $colorfont-secundario;
+    padding: 10px;
+    font-family: $font-principal;
+    font-weight: $grosor1;
+    font-size: $fsize2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section__container{
+    img{
+        margin: 10px;
+        width: 80%;
+        border-radius: 30px;
+    }
+    h2{
+        color: whitesmoke;
+    }
+   
+}
+
+
+/* Animacion Grilla */
+.img-1:hover,
+.img-2:hover,
+.img-3:hover,
+.img-4:hover,
+.img-5:hover,
+.img-6:hover {
+    transform: scale(0.9);
+    position: relative;
+    transition-duration: 0.5s;
+}
+
+.scale-up-center{
+    
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}

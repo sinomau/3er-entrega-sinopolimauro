@@ -1,0 +1,45 @@
+.footer__container {
+    background-color: rgb(65, 69, 73);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+
+    @include media-up(xs) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @include media-up(md) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @include media-up(lg) {
+        display: flex;
+        flex-direction: row;
+    }
+
+    li {
+        list-style: none;
+
+    }
+
+    h2 {
+        color: #9AC6C5;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 10px;
+        color: whitesmoke;
+
+        &:hover {
+            color: black;
+        }
+    }
+}

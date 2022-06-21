@@ -1,0 +1,99 @@
+body {
+    background-image: url(/assets/img/background.svg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parrafo__container  {
+
+    h1 {
+        font-family: $font-principal;
+        font-weight: $grosor1;
+        font-size: 3rem;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        color: #9AC6C5;
+
+    }
+
+}
+.slide-in-elliptic-top-fwd {
+	-webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/**
+ * ----------------------------------------
+ * Animacion titulo y parrafo index.
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-elliptic-top-fwd {
+    0% {
+      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+              transform: translateY(-600px) rotateX(-30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 1400px;
+              transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-elliptic-top-fwd {
+    0% {
+      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+              transform: translateY(-600px) rotateX(-30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 1400px;
+              transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+  }
+
+
+
+.card {
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.219);
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 150px;
+
+}
+
+.cards__container {
+    @extend %displayr;
+    margin-bottom: 150px;
+
+    img {
+        height: 128px;
+        width: 128px;
+    }
+
+    h5,
+    p {
+        font-family: $font-principal;
+        color: $colorfont-secundario;
+        text-align: center;
+    }
+
+}
+
+.card {
+    @extend %displayc;
+
+}

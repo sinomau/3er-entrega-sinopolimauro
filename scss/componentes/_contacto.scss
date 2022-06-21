@@ -1,0 +1,43 @@
+
+.container__contacto h1 {
+    text-align: center;
+    color: $colorfont-secundario;
+    padding: 10px;
+    font-family: $font-principal;
+    font-weight: $grosor1;
+    font-size: $fsize2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn-primary {
+    background-color: rgba(65, 69, 73, 0.329);
+    border-color: rgba(65, 69, 73, 0.329);
+
+    &:hover {
+        background-color: rgba(65, 69, 73, 0.329);
+        color: #9AC6C5;
+        border-color: #9AC6C5;
+    }
+}
+
+.container__textubicacion{
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    font-family: $font-principal;
+    font-weight: $grosor1;
+    font-size: $fsize2;
+}
+}
+
+.container__iframe{
+    margin: 50px 50px 150px 50px;
+    
+}
+
+.googlemaps{
+    width: 100%;
+}
