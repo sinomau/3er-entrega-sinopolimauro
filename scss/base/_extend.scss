@@ -1,6 +1,6 @@
 /* EXTEND Diplays */
 
-%displayr{
+%displayr {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -8,7 +8,7 @@
     flex-wrap: wrap;
 }
 
-%displayc{
+%displayc {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -16,17 +16,17 @@
     flex-wrap: wrap;
 }
 
-%displayc2{
+%displayc2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
-    
+
+
 }
 
-%displayr2{
+%displayr2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -36,20 +36,15 @@
 }
 
 
-%hero{
-    width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 1200px;
-    margin-top: 0px;
-    color: white;
-    padding: 50px;
+%hero {
 
-    li{ 
+    img {
+        width: 100%;
+    }
+
+
+    li {
+        color: #7785AC;
         font-size: 20px;
         list-style: none;
         text-align: center;
@@ -60,8 +55,9 @@
     }
 
     p {
+        color: wheat;
         font-size: 20px;
-
+        padding: 300px;
         text-align: center;
     }
 }

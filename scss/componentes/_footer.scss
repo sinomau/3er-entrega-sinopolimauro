@@ -12,6 +12,7 @@
     @include media-up(xs) {
         display: flex;
         flex-direction: column;
+        
     }
 
     @include media-up(md) {
@@ -25,11 +26,14 @@
     }
 
     li {
+        
+        font-size: small;
         list-style: none;
 
     }
 
     h2 {
+        text-align: center;
         color: #9AC6C5;
     }
 
@@ -41,5 +45,13 @@
         &:hover {
             color: black;
         }
+    }
+}
+
+.footer__brand{
+    @extend %displayc;
+    
+    img{
+        width: 200px;
     }
 }
